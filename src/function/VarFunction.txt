@@ -1,0 +1,6 @@
+fun main(){
+    val resultado : (Int, Int) -> Int
+    resultado = ::soma
+    println(resultado(3,4))
+}
+fun soma(a: Int, b: Int) = a + b

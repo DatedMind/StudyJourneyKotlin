@@ -1,3 +1,5 @@
+package Functions.VarFunction
+
 fun main(){
     val resultado : (Int, Int) -> Int
     resultado = ::soma
